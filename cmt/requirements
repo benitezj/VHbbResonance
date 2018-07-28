@@ -1,0 +1,7 @@
+package VHbbResonance
+version 00-00-00
+author Jose Benitez (jose.benitez@cern.ch)
+use AtlasPolicy AtlasPolicy-*
+private
+
+apply_pattern declare_scripts files="../scripts/* ../scriptsDB/*"
